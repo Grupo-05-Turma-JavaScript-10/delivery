@@ -20,4 +20,4 @@ import { ProdutoModule } from './produto/produto.module';
   controllers: [],
   providers: [],
 })
-export class AppModule {}
+export class AppModule {} 

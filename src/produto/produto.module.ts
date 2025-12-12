@@ -8,4 +8,4 @@ import { Produto } from './entities/produto.entity';
     controllers: [],
     exports: []
 })
-export class ProdutoModule {}
+export class ProdutoModule {} 

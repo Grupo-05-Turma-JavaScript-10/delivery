@@ -27,4 +27,4 @@ export class Produto {
     @IsNotEmpty()
     @Column({length: 5000, nullable: false})
     foto: string
-}
+} 
