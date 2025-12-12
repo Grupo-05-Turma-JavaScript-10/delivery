@@ -1,7 +1,7 @@
 import {IsNotEmpty } from "class-validator"
 import { Column, Entity, PrimaryGeneratedColumn } from "typeorm"
 
-@Entity({name: "tb_produto"})
+@Entity({name: "tb_produtos"})
 export class Produto {
 
     @PrimaryGeneratedColumn()
@@ -23,6 +23,10 @@ export class Produto {
         nullable: false
     })
     preco: number
+
+    @IsNotEmpty()
+    @Column({type: 'boolean'})
+    saudavel: boolean;
 
     @IsNotEmpty()
     @Column({length: 5000, nullable: false})
