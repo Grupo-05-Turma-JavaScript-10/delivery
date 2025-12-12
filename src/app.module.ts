@@ -14,10 +14,10 @@ import { ProdutoModule } from './produto/produto.module';
       database: 'db_delivery',
       entities: [Produto],
       synchronize: true,
-    })
-    , ProdutoModule
+    }),
+    ProdutoModule,
   ],
   controllers: [],
   providers: [],
 })
-export class AppModule {} 
+export class AppModule {}
