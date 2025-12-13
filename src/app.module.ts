@@ -12,7 +12,7 @@ import { CategoriaModule } from './categoria/categoria.module';
       host: 'localhost',
       port: 3306,
       username: 'root',
-      password: 'MinhaSenha123',
+      password: 'root',
       database: 'db_delivery',
       entities: [Produto, Categoria],
       synchronize: true,
