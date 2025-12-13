@@ -18,6 +18,9 @@ export class ProdutoService {
       where: {
         id,
       },
+      relations:{
+                categoria: true
+            }
     });
 
     if (!produto)
@@ -35,6 +38,9 @@ export class ProdutoService {
       where: {
         nome: ILike(`%${nome}%`),
       },
+      relations:{
+                categoria: true
+            }
     });
   }
 
