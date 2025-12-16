@@ -1,4 +1,4 @@
-# 🥗 Delivery API - Modo Saudável
+# 🥗 Delivery API - NutriGo
 
 <div align="center">
 
