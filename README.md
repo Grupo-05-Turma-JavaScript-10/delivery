@@ -73,3 +73,30 @@ Antes de começar, você precisa ter instalado em sua máquina:
 1. **Clone o repositório**
    ```bash
    git clone [https://github.com/SEU_USUARIO/delivery-api.git](https://github.com/SEU_USUARIO/delivery-api.git)
+   ```
+
+---
+
+## 🌱 Seeders
+
+Popule o banco com categorias e produtos saudáveis e não saudáveis.
+
+- Script de seed: [seed.ts]
+- Script de limpeza: [clear.ts]
+
+### Popular dados
+- Construir o projeto:
+  ```bash
+  npm run build
+  ```
+- Executar o seeder:
+  ```bash
+  npm run seed
+  ```
+
+### Limpar o banco de dados
+- Apagar todos os registros de `tb_produtos` e `tb_categoria`:
+  ```bash
+  npm run build
+  npm run db:clear
+  ```
